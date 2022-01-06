@@ -167,7 +167,7 @@ config = Config()
 
 if __name__ == "__main__":
     uvicorn.run("app:app", host="0.0.0.0",
-                port=int(getenv('PORT', 8000)),
+                port=int(getenv('PORT', 8080)),
                 log_level=getenv('LOG_LEVEL', "info"),
                 debug=getenv('DEBUG', False),
                 proxy_headers=True)
