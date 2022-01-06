@@ -8,4 +8,4 @@ build:
 run:
   command: python app.py
   network:
-    port: 8000
+    port: 8080
