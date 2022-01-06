@@ -20,7 +20,7 @@ Resources:
           ImageIdentifier: public.ecr.aws/aws-containers/hello-app-runner:latest
           ImageRepositoryType: ECR_PUBLIC
           ImageConfiguration:
-            Port: 8000
+            Port: 8080
 Outputs:
   Endpoint:
     Description: "The endpoint of the App Runner service."
