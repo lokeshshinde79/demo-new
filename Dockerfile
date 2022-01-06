@@ -5,7 +5,7 @@ ENV PATH=/usr/local/bin:$PATH \
     LANG=C.UTF-8 \
     WEB_CONCURRENCY=2
 
-EXPOSE 8000
+EXPOSE 8080
 WORKDIR /srv
 COPY . /srv
 
